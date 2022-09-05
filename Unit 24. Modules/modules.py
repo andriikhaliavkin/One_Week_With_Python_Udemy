@@ -23,4 +23,9 @@ import random
 print(random.random())
 print(random.randint(1, 10))
 
+import art
+print(art.text2art("Denis, kak dela?"))
+print(art.tprint("Kak ono",font="rnd-xlarge"))
+
+
 
