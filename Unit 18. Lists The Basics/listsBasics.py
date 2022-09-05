@@ -33,3 +33,17 @@ taskList.append("Mow the lawn")
 taskList.append("Take out the trash")
 #display tasks
 print(taskList)
+
+#convert string hello to a list
+helloList = list("Hello")
+print(helloList)
+
+#list of a lists
+listOfLists = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(listOfLists)
+#loop through list of lists
+for i in listOfLists:
+    print(i)
+    for j in i:
+        print(j)
+
