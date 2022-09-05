@@ -16,3 +16,26 @@ for i in range(1, 11):
     print(i)
 print("Done with loop")
 
+#nested loops
+for i in range(1, 4):
+    for letter in ["a", "b", "c"]:
+        print(i, letter)
+
+#dice roll
+from random import randint
+for i in range(10):
+    print(randint(1, 6))
+
+#2 dice roll
+for i in range(10):
+    dice1 = randint(1, 6)
+    dice2 = randint(1, 6)
+    print(dice1, dice2)
+
+#toothpick game
+from random import randint
+for i in range(10):
+    player = randint(1, 2)
+    print("Player", player, "wins!")
+
+
